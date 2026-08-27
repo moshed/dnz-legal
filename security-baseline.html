@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Operational Security Baseline — DNZ Consulting LLC</title>
+<meta name="description" content="Operational Security Baseline of DNZ Consulting LLC.">
+<style>
+:root{--bg:#ffffff;--fg:#16181d;--muted:#5b6270;--line:#e3e6ec;--accent:#1f5fd0;--card:#f7f8fa}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1115;--fg:#e7e9ee;--muted:#9aa2b1;--line:#242833;--accent:#7aa7ff;--card:#161a21}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
+.wrap{max-width:760px;margin:0 auto;padding:48px 24px 96px}
+header.site{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:36px}
+header.site a.brand{color:var(--fg);text-decoration:none;font-weight:650;letter-spacing:-.01em;font-size:17px}
+header.site .sub{color:var(--muted);font-size:13px;margin-top:4px}
+h1{font-size:30px;line-height:1.2;letter-spacing:-.02em;margin:0 0 6px}
+h2{font-size:19px;letter-spacing:-.01em;margin:38px 0 10px;padding-top:4px}
+h3{font-size:16px;margin:24px 0 6px}
+p,li{color:var(--fg)}
+.meta{color:var(--muted);font-size:14px;margin:0 0 28px}
+ul{padding-left:22px}
+li{margin:6px 0}
+a{color:var(--accent)}
+.docs{list-style:none;padding:0;margin:24px 0 0}
+.docs li{margin:0 0 10px}
+.docs a{display:block;border:1px solid var(--line);background:var(--card);border-radius:10px;padding:14px 16px;text-decoration:none;color:var(--fg)}
+.docs a:hover{border-color:var(--accent)}
+.docs .t{font-weight:600}
+.docs .d{color:var(--muted);font-size:14px;margin-top:2px}
+table{border-collapse:collapse;width:100%;margin:14px 0;font-size:15px;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--card);font-weight:600}
+footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+.back{display:inline-block;margin-bottom:26px;font-size:14px}
+@media print{body{background:#fff;color:#000}.wrap{max-width:none;padding:0}header.site,.back,footer a{color:#000}a{color:#000;text-decoration:none}}
+</style>
+</head><body><div class="wrap">
+<header class="site">
+  <a class="brand" href="./">DNZ Consulting LLC</a>
+  <div class="sub">Policies and compliance &middot; NY registration 7798491</div>
+</header>
+<a class="back" href="./">&larr; All policies</a>
+<h1>Operational Security Baseline</h1>
+<p class='meta'>DNZ Consulting LLC &middot; Effective August 27, 2026 &middot; Next review August 27, 2027</p>
+<p>This baseline states the minimum security settings for daily work at DNZ Consulting LLC. Every device and every account must meet it.</p>
+<h2>1. Scope and ownership</h2><p>This policy applies to every system, device, and person that DNZ Consulting LLC uses to do business. DNZ Consulting LLC is a small company. The Managing Member owns this policy. The Managing Member also acts as the Security Officer and the Data Protection Officer.</p><p>The Managing Member reviews this policy one time each year. The Managing Member also reviews it after any security incident.</p>
+<h2>2. Screen locking</h2>
+<ul>
+<li>The screen locks after 5 minutes of inactivity.</li>
+<li>Unlocking needs a password or a biometric check.</li>
+<li>Lock the screen before you leave the device, even for a moment.</li>
+</ul>
+
+<h2>3. Password complexity</h2>
+<ul>
+<li>A password is at least 14 characters long.</li>
+<li>A password is unique. Never reuse a password across services.</li>
+<li>A password manager generates and stores every password. We use the macOS Keychain and Apple Passwords.</li>
+<li>Never write a password in a document, a chat message, or source code.</li>
+<li>Change a password immediately if it may have leaked.</li>
+</ul>
+
+<h2>4. Multi-factor authentication</h2>
+<ul>
+<li>Turn on multi-factor authentication for every account that offers it.</li>
+<li>This is mandatory for email, cloud hosting, source control, the domain registrar, banking, and every merchant platform.</li>
+<li>Prefer an authenticator application or a hardware key. Avoid SMS codes where an alternative exists.</li>
+<li>Store recovery codes in the encrypted password manager.</li>
+</ul>
+
+<h2>5. Clear desk and clear screen</h2>
+<ul>
+<li>Do not leave a printed document that holds personal data on the desk.</li>
+<li>Store paper records in a locked drawer.</li>
+<li>Shred a paper record that holds personal data before disposal.</li>
+<li>Position the screen so that a visitor cannot read it.</li>
+</ul>
+
+<h2>6. Secrets</h2>
+<ul>
+<li>Store every API key, token, and certificate in the macOS Keychain or in the platform secret store.</li>
+<li>Never commit a secret to source control.</li>
+<li>Rotate a secret immediately if it appears in a log, a chat, or a file.</li>
+</ul>
+
+<h2>7. Email and phishing</h2>
+<ul>
+<li>Check the sender address before you act on a request.</li>
+<li>Never approve a payment or a credential change from an email alone. Confirm on a second channel.</li>
+<li>Report a suspected phishing message under the incident response policy.</li>
+</ul>
+
+<h2>8. Review</h2>
+<p>The Managing Member reviews this baseline one time each year.</p>
+
+<footer>
+  DNZ Consulting LLC &middot; 45 Meadow Lane, Lawrence, NY 11559, United States<br>
+  New York State registration number 7798491<br>
+  Contact: <a href="mailto:privacy@dancykier.com">privacy@dancykier.com</a>
+</footer>
+</div></body></html>
